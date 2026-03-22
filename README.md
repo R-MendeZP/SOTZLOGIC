@@ -1,16 +1,16 @@
-🦇 SOTZLOGIC
+SOTZLOGIC
 Autor: Ricardo Emmanuel Méndez Pérez
 
 Apodo: R. Méndez
 
 Institución: CECyTECH 40 "Las Águilas" (Chiapas, México)
 
-📖 Introducción
+Introducción
 SOTZLOGIC V0 es un proyecto basado en los principios de funcionamiento de un PLC (Controlador Lógico Programable). Utiliza como núcleo el microcontrolador ESP32-S3 N16R8.
 
 El nombre proviene del vocablo Tzotzil "Sotz" (Murciélago), una referencia a las noches de desvelo invertidas en su desarrollo y a la versatilidad del sistema para adaptarse a distintas tareas. Este proyecto forma parte de mi formación académica en la carrera de Mecatrónica, enfocándome en el diseño de sistemas de control.
 
-🛠️ Hardware Empleado (Versión 0)
+Hardware Empleado (Versión 0)
 Microcontrolador: ESP32-S3 N16R8.
 
 Salidas: Módulo de relevadores de 8 canales.
@@ -21,7 +21,7 @@ Gestión de Energía: Módulo AMS1117 de 3.3V.
 
 Lógica de Señales: Arreglo en Pull-up con resistencias de 4.7KΩ.
 
-🚀 Evolución: SOTZ V0.1
+Evolución: SOTZ V0.1
 A pocos días de finalizar la primera versión, surgió el reto de escalar el proyecto por petición de la dirección de carrera. Los nuevos requerimientos incluyen:
 
 Control de 4 microcilindros neumáticos.
@@ -32,7 +32,7 @@ Implementación de indicadores visuales (luces piloto).
 
 Para lograrlo, rediseñé el circuito expandiendo de 8 a 16 salidas independientes. La clave de esta mejora fue la implementación de dos circuitos integrados 74HC595 (registros de desplazamiento). Estos integrados permiten controlar las salidas optimizando el uso de pines del ESP32. Además, se incorporaron dos drivers ULN2803 (uno para cada registro) para invertir el nivel lógico y manejar adecuadamente la potencia de las bobinas de los relevadores.
 
-⚙️ Pruebas Realizadas
+Pruebas Realizadas
 Fecha: 14 de marzo de 2026 | Hora: 15:32
 
 Se realizó la primera prueba de esfuerzo de la V0 utilizando 4 salidas:
